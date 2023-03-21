@@ -1,0 +1,91 @@
+.background-props {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tour-component {
+    width: $tour-banner-width;
+    height: $tour-banner-height;
+    padding: 50px 0;
+    margin-bottom: 20px;
+}
+
+.tour-banner-format {
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.info-holder {
+    width: 100%;
+    height: 90%;
+    color: $site-white;
+    margin: auto;
+    text-align: center;
+    white-space: nowrap;
+
+    h1 {
+        font-family: proxima;
+        font-size: 55px;
+    }
+
+    p {
+        font-size: 30px;
+        font-family: proxima;
+    }
+}
+
+.button1 {
+    width: 133px;
+    height: 40px;
+    background-color: $site-blue;
+    border: none;
+    text-transform: uppercase;
+    font-family: gillmore;
+    font-size: 15px;
+    color: $site-white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: auto;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.isreal-pic {
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-01.jpg);
+}
+
+.us-pic {
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-02.jpg);
+}
+
+.aussie-pic {
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-03.jpg);
+}
+
+.zealand-pic {
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-04.jpg);
+}
+
+.france-pic {
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-05.jpg);
+}
+
+.egypt-pic {
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-06.jpg);
+}
+
+.japan-pic {
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-07.jpg);
+}
+
+.canada-pic {
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-08.jpg);
+}
+
+.ua-pic {
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-09.jpg);
+}
