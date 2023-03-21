@@ -1481,5 +1481,8 @@ footer .socialmedia {
     align-items: center;
   }
 }
+.blog {
+  max-width: 980px;
+}
 
 /*# sourceMappingURL=styles.css.map */
