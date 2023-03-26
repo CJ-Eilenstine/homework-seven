@@ -1,0 +1,94 @@
+.contact-wrapper {
+    position: relative;
+    min-height: 80vh;
+    width: 77.5%;
+    margin: 0 auto 0px auto;
+    top: 90px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    .contact-title {
+        margin-top: 60px;
+        margin-bottom: 50px;
+        h1 {
+            display: inline-block;
+            font-family: proxima;
+            font-size: 30px;
+            border-bottom: 2px solid #000;
+        }
+    }
+
+    .contact-page {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 50px;
+
+
+        .contact-left {
+            max-width: 400px;
+            margin-right: 20px;
+
+            p {
+                width: 200px;
+                margin-top: 40px;
+                font-size: 18px;
+                font-family: gillmore;
+            }
+        }
+
+        .contact-right {
+            display: flex;
+            flex-direction: column;
+            width: 530px;
+            // justify-content: space-evenly;
+            height: 530px;
+
+            input {
+                height: 60px;
+                margin-bottom: 22px;
+                padding-left: 20px;
+                font-size: 16px;
+                font-family: gillmore;
+                border: none;
+                background-color: #F5F5F5;
+
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            textarea {
+                resize: none;
+                height: 200px;
+                width: 100%;
+                padding-left: 20px;
+                padding-top: 20px;
+                font-size: 16px;
+                font-family: gillmore;
+                border: none;
+                background-color: #F5F5F5;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            h1 {
+                @include site-blue-button();
+                max-width: 167px;
+                font-size: 16px;
+                font-family: gillmore;
+                text-align: center;
+                color: $site-white;
+                text-transform: uppercase;
+                margin-top: 20px;
+            }
+        }
+    }
+
+}
