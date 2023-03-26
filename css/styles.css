@@ -1637,4 +1637,16 @@ footer .socialmedia {
   margin-top: 20px;
 }
 
+.special-wrapper {
+  position: relative;
+  min-height: 80vh;
+  width: 77.5%;
+  margin: 0 auto 0px auto;
+  top: 90px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
 /*# sourceMappingURL=styles.css.map */
