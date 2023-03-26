@@ -1481,8 +1481,48 @@ footer .socialmedia {
     align-items: center;
   }
 }
-.blog {
-  max-width: 980px;
+.blog-wrapper {
+  position: relative;
+  min-height: 80vh;
+  width: 77.5%;
+  margin: 0 auto 0px auto;
+  top: 90px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+.blog-wrapper .blog-title {
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 32px;
+}
+.blog-wrapper .blog-title p {
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-family: proxima;
+  border-bottom: 2px #000 solid;
+  display: inline-block;
+}
+.blog-wrapper .blog-detailts {
+  display: flex;
+  justify-content: space-between;
+}
+.blog-wrapper .blog-detailts .blog-date {
+  width: 60px;
+  height: 60px;
+  background-color: #79addc;
+}
+.blog-wrapper .blog-detailts .blog-right {
+  display: flex;
+  flex-direction: column;
+}
+.blog-wrapper .blog-detailts .blog-right img {
+  width: 20%;
+  height: 260px;
 }
 
 /*# sourceMappingURL=styles.css.map */
