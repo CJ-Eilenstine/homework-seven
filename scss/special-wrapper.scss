@@ -9,4 +9,104 @@
     justify-content: space-evenly;
     flex-direction: column;
 
+    .special-title {
+        font-size: 30px;
+        font-family: proxima;
+        text-transform: uppercase;
+        display: inline-block;
+        border-bottom: 2px solid #000;
+        margin-top: 60px;
+    }
+
+    .special-deals {
+        width: 500px;
+        height: 290px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 60px;
+        margin-top: 40px;
+
+        .special-left {
+            width: 200px;
+            max-height: 290px;
+            margin-right: 20px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .special-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 290px;
+
+            .barcelona {
+                display: flex;
+                flex-direction: row;
+                height: 55px;
+                align-items: last baseline;
+                width: 290px;
+
+                .barcelona-offer {
+                    font-size: 30px;
+                    font-family: proxima;
+                    border-bottom: #000 solid 2px;
+                    width: 200px;
+                    letter-spacing: 2px;
+                }
+
+                .percent-off {
+                    color: #FF7D38;
+                    font-size: 20px;
+                    font-family: proxima;
+                }
+            }
+
+            .bangkok {
+                display: flex;
+                flex-direction: row;
+                height: 55px;
+                align-items: last baseline;
+                width: 290px;
+
+                .barcelona-offer {
+                    font-size: 30px;
+                    font-family: proxima;
+                    border-bottom: #000 solid 2px;
+                    width: 200px;
+                    letter-spacing: .5px;
+                }
+
+                .percent-off {
+                    color: #FF7D38;
+                    font-size: 20px;
+                    font-family: proxima;
+                }
+            }
+
+            p {
+                font-size: 16px;
+                font-family: gillmore;
+                width: 290px;
+            }
+
+            h3 {
+                background-color: $site-blue;
+                color: #fff;
+                font-size: 15px;
+                font-family: gillmore;
+                width: 130px;
+                text-transform: uppercase;
+                height: 40px;
+                border-radius: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
 }

@@ -1648,5 +1648,93 @@ footer .socialmedia {
   justify-content: space-evenly;
   flex-direction: column;
 }
+.special-wrapper .special-title {
+  font-size: 30px;
+  font-family: proxima;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 2px solid #000;
+  margin-top: 60px;
+}
+.special-wrapper .special-deals {
+  width: 500px;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+.special-wrapper .special-deals .special-left {
+  width: 200px;
+  max-height: 290px;
+  margin-right: 20px;
+}
+.special-wrapper .special-deals .special-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.special-wrapper .special-deals .special-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 290px;
+}
+.special-wrapper .special-deals .special-right .barcelona {
+  display: flex;
+  flex-direction: row;
+  height: 55px;
+  align-items: last baseline;
+  width: 290px;
+}
+.special-wrapper .special-deals .special-right .barcelona .barcelona-offer {
+  font-size: 30px;
+  font-family: proxima;
+  border-bottom: #000 solid 2px;
+  width: 200px;
+  letter-spacing: 2px;
+}
+.special-wrapper .special-deals .special-right .barcelona .percent-off {
+  color: #FF7D38;
+  font-size: 20px;
+  font-family: proxima;
+}
+.special-wrapper .special-deals .special-right .bangkok {
+  display: flex;
+  flex-direction: row;
+  height: 55px;
+  align-items: last baseline;
+  width: 290px;
+}
+.special-wrapper .special-deals .special-right .bangkok .barcelona-offer {
+  font-size: 30px;
+  font-family: proxima;
+  border-bottom: #000 solid 2px;
+  width: 200px;
+  letter-spacing: 0.5px;
+}
+.special-wrapper .special-deals .special-right .bangkok .percent-off {
+  color: #FF7D38;
+  font-size: 20px;
+  font-family: proxima;
+}
+.special-wrapper .special-deals .special-right p {
+  font-size: 16px;
+  font-family: gillmore;
+  width: 290px;
+}
+.special-wrapper .special-deals .special-right h3 {
+  background-color: #79addc;
+  color: #fff;
+  font-size: 15px;
+  font-family: gillmore;
+  width: 130px;
+  text-transform: uppercase;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=styles.css.map */
