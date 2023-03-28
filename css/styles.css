@@ -1493,19 +1493,18 @@ footer .socialmedia {
   flex-direction: column;
 }
 .blog-wrapper .blog-title {
-  width: 100%;
   margin-top: 60px;
-  margin-bottom: 32px;
 }
 .blog-wrapper .blog-title p {
   text-align: left;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-size: 30px;
   font-family: proxima;
   border-bottom: 2px #000 solid;
   display: inline-block;
 }
 .blog-wrapper .blog-details {
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -1568,15 +1567,17 @@ footer .socialmedia {
 }
 .contact-wrapper .contact-title {
   margin-top: 60px;
-  margin-bottom: 50px;
 }
-.contact-wrapper .contact-title h1 {
-  display: inline-block;
-  font-family: proxima;
+.contact-wrapper .contact-title p {
+  text-align: left;
+  text-transform: uppercase;
   font-size: 30px;
-  border-bottom: 2px solid #000;
+  font-family: proxima;
+  border-bottom: 2px #000 solid;
+  display: inline-block;
 }
 .contact-wrapper .contact-page {
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1649,12 +1650,15 @@ footer .socialmedia {
   flex-direction: column;
 }
 .special-wrapper .special-title {
+  margin-top: 60px;
+}
+.special-wrapper .special-title p {
+  text-align: left;
+  text-transform: uppercase;
   font-size: 30px;
   font-family: proxima;
-  text-transform: uppercase;
+  border-bottom: 2px #000 solid;
   display: inline-block;
-  border-bottom: 2px solid #000;
-  margin-top: 60px;
 }
 .special-wrapper .special-deals {
   width: 500px;

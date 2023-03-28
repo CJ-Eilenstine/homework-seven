@@ -12,21 +12,15 @@
     // background-color: antiquewhite;
 
     .blog-title {
-        width: 100%;
         margin-top: 60px;
-        margin-bottom: 32px;
 
         p {
-            text-align: left;
-            text-transform: capitalize;
-            font-size: 30px;
-            font-family: proxima;
-            border-bottom: 2px #000 solid;
-            display: inline-block;
+            @include title-format;
         }
     }
 
     .blog-details {
+        margin-top: 30px;
         display: flex;
         justify-content: space-between;
         width: 100%;
